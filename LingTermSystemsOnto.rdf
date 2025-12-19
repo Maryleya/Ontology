@@ -1,0 +1,1361 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#Definition"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Link -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#Link"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#DefinitionAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#DefinitionAuthor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#DefinitionPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#DefinitionPublication">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#DefinitionTerm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#DefinitionTerm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#PublicationAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#PublicationAuthor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#PublicationSchool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#PublicationSchool">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#TermDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#TermDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#School"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Akira_Watanabe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Akira_Watanabe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou__Hedde_Zeijlstra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou__Hedde_Zeijlstra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anderson_2001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anderson_2001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#John_Anderson"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Finiteness, in Greek, and Elsewhere</untitled-ontology-2:Title>
+        <rdfs:Link>https://ifa.amu.edu.pl/psicl/files/37/01Anderson.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Blanchette_2015 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Blanchette_2015">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Frances_Blanchette"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>English Negative Concord, Negative Polarity, and Double Negation</untitled-ontology-2:Title>
+        <rdfs:Link>https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1880&amp;context=gc_etds</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Blanchette_2017 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Blanchette_2017">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Frances_Blanchette"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#experimental"/>
+        <untitled-ontology-2:Title>Micro-syntactic variation in American English Negative Concord</untitled-ontology-2:Title>
+        <rdfs:Link>https://thestacks.libaac.de/server/api/core/bitstreams/58b96047-c3cc-4757-b4ca-1f3568fe275d/content</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Cavar_et_al_2024 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Cavar_et_al_2024">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Damir_Cavar__Ludovic_Vetea_Mompelat__Muhammad_Abdo"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#functional"/>
+        <untitled-ontology-2:Title>The Typology of Ellipsis: A Corpus for Linguistic Analysis and Machine Learning Applications</untitled-ontology-2:Title>
+        <rdfs:Link>https://aclanthology.org/2024.sigtyp-1.6.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Colin_Phillips__Dan_Parker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Colin_Phillips__Dan_Parker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Corblin_et_al_2004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Corblin_et_al_2004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Francis_Corblin__Viviane_Déprez__Henriëtte_de_Swart__Lucia_Tovena"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Negative concord</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.researchgate.net/profile/Claire-Beyssade-2/publication/46652820_Prosody_and_Informtion_in_French/links/00463532d933312baf000000/Prosody-and-Informtion-in-French.pdf#page=367</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Cowper_2016 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Cowper_2016">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elizabeth_Cowper"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Finiteness and Pseudofiniteness</untitled-ontology-2:Title>
+        <rdfs:Link>https://eac.incl.pl/Cowper_Finiteness_and_Pseudofiniteness.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Damir_Cavar__Ludovic_Vetea_Mompelat__Muhammad_Abdo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Damir_Cavar__Ludovic_Vetea_Mompelat__Muhammad_Abdo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Deshpande_1989 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Deshpande_1989">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Madhav_M_Deshpande"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Ellipsis in Modern Linguistics and Ellipsis in Modern Linguistics and Pāṇini</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.jstor.org/stable/41693463</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Déprez_1999 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Déprez_1999">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Viviane_Déprez"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>The Roots of Negative Concord in French and French Based Creoles</untitled-ontology-2:Title>
+        <rdfs:Link>https://d1wqtxts1xzle7.cloudfront.net/33016184/Roots_of_Negative_Concord-libre.pdf?1393938376=&amp;response-content-disposition=inline%3B+filename%3DTHE_ROOTS_OF_NEGATIVE_CONCORD_IN_FRENCH.pdf&amp;Expires=1762898790&amp;Signature=Q20p~n1-vHte7MonrZiTlTiFlynXIPOdSGA3~jzLujl~m1pvswMhUe-3sNHG2~t-CKSwx2O77L~~pahzl8k-YPUA~D9qlG0jlPsCLED0ytjNtp0xoa9qlcO13R1E1XGLAYbCFocO0DbDeymue0Dca7prZlC5h6bb05VeF~EKyRkum7Vm6e-gT3euY24JiM-93VgcyXKgS2lgq-Nrz95LP~v-zNq-2IDPyBILZjvRDbJA-ScC6MLfHPNPim9FQcz4Nknk~rLkR5tzNYvUWfTcDM7BImtHEv3nFeeSGrCOBnGOTpgV7Ho-9oxgOwRZi09XtAx5RScSFFXRouBa5iuYpQ__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elena_Herburger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elena_Herburger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elizabeth_Cowper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elizabeth_Cowper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Frances_Blanchette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Frances_Blanchette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Francis_Corblin__Viviane_Déprez__Henriëtte_de_Swart__Lucia_Tovena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Francis_Corblin__Viviane_Déprez__Henriëtte_de_Swart__Lucia_Tovena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Giannakidou_2000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Giannakidou_2000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Negative... Concord?</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.jstor.org/stable/4047938</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Giannakidou__Zeijlstra_2017 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Giannakidou__Zeijlstra_2017">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou__Hedde_Zeijlstra"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>The Landscape of Negative Dependencies: Negative Concord and N-Words</untitled-ontology-2:Title>
+        <rdfs:Link>https://home.uchicago.edu/~giannaki/pubs/Giannakidou.zeijlstra.proofs.SC2017.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Hedde_Zeijlstra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Hedde_Zeijlstra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Henriëtte_de_Swart__Ivan_A_Sag -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Henriëtte_de_Swart__Ivan_A_Sag">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Herburger_2001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Herburger_2001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elena_Herburger"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>The Negative Concord Puzzle Revisited</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.jstor.org/stable/23748812</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Irina_Nikolaeva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Irina_Nikolaeva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Isaac_N_Mwinlaaru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Isaac_N_Mwinlaaru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jason_Merchant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jason_Merchant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jeremy_Kuhn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jeremy_Kuhn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#John_Anderson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#John_Anderson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Kempson_et_al_2015 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Kempson_et_al_2015">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ruth_Kempson__Ronnie_Cann__Arash_Eshghi__Eleni_Gregoromichelaki__Matthew_Purver"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Ellipsis</untitled-ontology-2:Title>
+        <rdfs:Link>https://elenigregor.github.io/files/KempsonEtAlInHandbookContemporarySemanticTheory-(2015).pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Klein_2006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Klein_2006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Wolfgang_Klein"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>On Finiteness</untitled-ontology-2:Title>
+        <rdfs:Link>https://pure.mpg.de/rest/items/item_58342_4/component/file_58343/content</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Kuhn_2021 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Kuhn_2021">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jeremy_Kuhn"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>The dynamics of negative concord</untitled-ontology-2:Title>
+        <rdfs:Link>https://hal.science/hal-03408804v1/file/kuhn_20_The-dynamics-of-n.3.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Madhav_M_Deshpande -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Madhav_M_Deshpande">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Maldonado__Culbertson_2021 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Maldonado__Culbertson_2021">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Mora_Maldonado__Jennifer_Culbertson"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#experimental"/>
+        <untitled-ontology-2:Title>Nobody Doesn’t Like Negative Concord</untitled-ontology-2:Title>
+        <rdfs:Link>https://link.springer.com/content/pdf/10.1007/s10936-021-09816-w.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Merchant_2010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Merchant_2010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jason_Merchant"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Diagnosing ellipsis</untitled-ontology-2:Title>
+        <rdfs:Link>https://home.uchicago.edu/merchant/pubs/diagnosing.ellipsis.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Mora_Maldonado__Jennifer_Culbertson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Mora_Maldonado__Jennifer_Culbertson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Mwinlaaru_2024 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Mwinlaaru_2024">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Isaac_N_Mwinlaaru"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#functional"/>
+        <untitled-ontology-2:Title>What is finiteness in Dagaare?</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.degruyterbrill.com/document/doi/10.1515/jwl-2024-0010/html</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Neda_Todorović__Susi_Wurmbrand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Neda_Todorović__Susi_Wurmbrand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Nikolaeva_2010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Nikolaeva_2010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Irina_Nikolaeva"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#functional"/>
+        <untitled-ontology-2:Title>Typology of Finiteness</untitled-ontology-2:Title>
+        <rdfs:Link>https://compass.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1749-818X.2010.00253.x?casa_token=tvZeeaCjhDMAAAAA%3ASrPrKodYYPwOEB1ylKnZnLteDMdYRYf5BCIz_BKJ8s84k7KnWrcy_t9xct4nQ6jgnQh0I8vHIEd8bQ</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Phillips__Parker_2014 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Phillips__Parker_2014">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Colin_Phillips__Dan_Parker"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>The psycholinguistics of ellipsis</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.sciencedirect.com/science/article/abs/pii/S0024384113002209?casa_token=bjl4VPCk1SgAAAAA:XDMHTm7Vgst_Y11aYMdfvaXjswXHYdmSqtn40hnT-iwtQ27GOgYge_HxjdaR5hqfoCKHekv4</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ruth_Kempson__Ronnie_Cann__Arash_Eshghi__Eleni_Gregoromichelaki__Matthew_Purver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ruth_Kempson__Ronnie_Cann__Arash_Eshghi__Eleni_Gregoromichelaki__Matthew_Purver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Shopen_1973 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Shopen_1973">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Tim_Shopen"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#functional"/>
+        <untitled-ontology-2:Title>Ellipsis as Grammatical Indeterminacy</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.jstor.org/stable/25000705</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Tim_Shopen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Tim_Shopen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Todorović__Wurmbrand_2016 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Todorović__Wurmbrand_2016">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Neda_Todorović__Susi_Wurmbrand"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Finiteness across domains</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.researchgate.net/profile/Neda-Todorovic-4/publication/331024524_Finiteness_across_domains/links/5c61d79c299bf1d14cbf743e/Finiteness-across-domains.pdf</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ton_van_der_Wouden__Frans_Zwarts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ton_van_der_Wouden__Frans_Zwarts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Viviane_Déprez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Viviane_Déprez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Watanabe_2004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Watanabe_2004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Akira_Watanabe"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>The Genesis of Negative Concord: Syntax and Morphology of Negative Doubling</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.jstor.org/stable/4179296</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Wolfgang_Klein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Wolfgang_Klein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+        <rdfs:Definition>Finiteness appears to be an inflectional category of the verb, along with tense, person, mood and others.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Zeijlstra_2004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Zeijlstra_2004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Hedde_Zeijlstra"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Sentential Negation and Negative Concord</untitled-ontology-2:Title>
+        <rdfs:Link>https://pure.mpg.de/rest/items/item_378456/component/file_378455/content</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Zeijlstra_2008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Zeijlstra_2008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Hedde_Zeijlstra"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Negative Concord is syntactic agreement</untitled-ontology-2:Title>
+        <rdfs:Link>https://d1wqtxts1xzle7.cloudfront.net/36110100/zeijlstra_08_Negative-Con-libre.pdf?1420062658=&amp;response-content-disposition=inline%3B+filename%3D2008_Negative_Concord_is_syntactic_agree.pdf&amp;Expires=1762896946&amp;Signature=E9aisGdHPyoa1lLEr4PXmDY7xrTDhDblvW3Xx57i-6SzmyCylRvT5uRFskBKwuZvBMaEywCpn8urqDunxnoU0-y5xuchOToiWqdXkQ-mE~6sCSU4nRAfi8p2DO47xoGTIKCuazGhCYyF7Pnr2uH2xLD0D1Cuc5wiYewkmLXSxQHhPazr41KUSO92lylUIKI7zKH9z~PW~sfKdrzkiMCwt5clvcW9LHyi8DlIe5bChAxIVog0LQ2o8ixCZSw7vW5eA7LDOC01YIDNsv-q8JZ7cjN768vJhmjeFdIPDJLBQvJ7IN5YfhHVXnDFUSomIWejYeoWsJYcNyHB7LJnibjlHA__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#de_Swart__Sag_2002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#de_Swart__Sag_2002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Henriëtte_de_Swart__Ivan_A_Sag"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>Negation and Negative Concord in Romance</untitled-ontology-2:Title>
+        <rdfs:Link>https://www.jstor.org/stable/25001855</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#синтаксис"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Colin_Phillips__Dan_Parker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Colin_Phillips__Dan_Parker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Colin_Phillips__Dan_Parker"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis"/>
+        <rdfs:Definition>Ellipsis is a cover-term for a number of linguistic phenomena where a sentence lacks material that would normally be obligatory, and the missing material is nevertheless semantically recoverable from the local syntactic or semantic context.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Damir_Cavar__Ludovic_Vetea_Mompelat__Muhammad_Abdo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Damir_Cavar__Ludovic_Vetea_Mompelat__Muhammad_Abdo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Damir_Cavar__Ludovic_Vetea_Mompelat__Muhammad_Abdo"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis"/>
+        <rdfs:Definition>Ellipsis is a linguistic phenomenon that results in the omission of words in sentences that are usually obligatory in a given syntactic context and that the speaker and hearer can understand and reconstruct without effort.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Jason_Merchant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Jason_Merchant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jason_Merchant"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis"/>
+        <rdfs:Definition>St. Isidore (in his Etymologiarum, Liber I ‘De grammatica’, ch. XXXIV ‘De Vitiis’, sec. 10) tells us that “Eclipsis est defectus dictionis, in quo necessaria verba desunt” (‘Ellipsis is an incompletion of speech, in which necessary words are missing’).</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Madhav_M_Deshpande -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Madhav_M_Deshpande">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Madhav_M_Deshpande"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis"/>
+        <rdfs:Definition>There is no agreement on what exactly the term &quot; ellipsis &quot; refers to. The general feeling is that the word &quot; ellipsis &quot; refers to some sort of &quot; incompleteness &quot; of surface-structure or expression. If there is more meaning comprehended than what is presumably directly conveyed by the components of an expression, then one feels like invoking the notion of ellipsis.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Ruth_Kempson__Ronnie_Cann__Arash_Eshghi__Eleni_Gregoromichelaki__Matthew_Purver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Ruth_Kempson__Ronnie_Cann__Arash_Eshghi__Eleni_Gregoromichelaki__Matthew_Purver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ruth_Kempson__Ronnie_Cann__Arash_Eshghi__Eleni_Gregoromichelaki__Matthew_Purver"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis"/>
+        <rdfs:Definition>Ellipsis is a phenomenon in which what is conveyed, in some sense to be explained, doesn’t need to be fully verbally articulated</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Tim_Shopen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis_by_Tim_Shopen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Tim_Shopen"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#ellipsis"/>
+        <rdfs:Definition>I will say there is ellipsis when propositions are not fully realized in the grammatical form of utterances.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#experimental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#experimental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#School"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#синтаксис"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Elizabeth_Cowper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Elizabeth_Cowper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elizabeth_Cowper"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness"/>
+        <rdfs:Definition>This paper adopts the traditional view that finiteness per se is a purely syntactic property, consisting of the ability to license structural case in subject position and the possible presence of agreement marking on the verb.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Irina_Nikolaeva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Irina_Nikolaeva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Irina_Nikolaeva"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness"/>
+        <rdfs:Definition>In most grammatical descriptions, finiteness is defined as the property of the verbal form which has to do with (i) tense marking, (ii) subject agreement, and (iii) the ability of the form to be used exclusively or predominantly in independent⁄main contexts.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Isaac_N_Mwinlaaru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Isaac_N_Mwinlaaru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Isaac_N_Mwinlaaru"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness"/>
+        <rdfs:Definition>Scholars across different theoretical traditions tend to agree that finiteness has to do with the status of the clause in terms of freedom (Anderson 2007, 2011: 234–289, 290–356; Givón 1990; Halliday 1985: 217–218; Huang 2022; Matthiessen and Thompson 1988; Wurmbrand et al. 2020).</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_John_Anderson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_John_Anderson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#John_Anderson"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness"/>
+        <rdfs:Definition>Thus, the glossary to the first volume of CHEL provides the following definition: finite A term used to describe a verb which is marked for tense and number. Hence finite clause, a clause which contains a subject and finite verb. (Hogg 1992: 541)</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Neda_Todorović__Susi_Wurmbrand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Neda_Todorović__Susi_Wurmbrand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Neda_Todorović__Susi_Wurmbrand"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness"/>
+        <rdfs:Definition>The notion of finiteness has traditionally been related to tense.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Wolfgang_Klein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness_by_Wolfgang_Klein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Wolfgang_Klein"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#finiteness"/>
+        <rdfs:Definition>Finiteness appears to be an inflectional category of the verb, along with tense, person, mood and others.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#School"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#functional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#functional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#School"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#синтаксис"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Akira_Watanabe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Akira_Watanabe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Akira_Watanabe"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Negative concord covers at least two subcases, which are dubbed by Den Besten (1986) negative doubling and negative spread.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Anastasia_Giannakidou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Anastasia_Giannakidou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Generally, we talk about &apos;negative concord&apos; in situations where negation is interpreted just once although it seems to be expressed more than once in the clause.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Anastasia_Giannakidou__Hedde_Zeijlstra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Anastasia_Giannakidou__Hedde_Zeijlstra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Anastasia_Giannakidou__Hedde_Zeijlstra"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Strict and non-strict NC i. Strict NC: The n-word always requires the presence of the negative marker, regardless of position in the sentence. ii. Non-strict NC: The n-word can appear without the negative marker in preverbal position or when construed with another preverbal n-word.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Elena_Herburger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Elena_Herburger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Elena_Herburger"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Negative Concord arises when an even number of apparently negative elements (n-words, negation) co-occur, but, contrary to what logic would lead us to expect, they do not cancel each other out.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Frances_Blanchette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Frances_Blanchette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Frances_Blanchette"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>English is among the many natural languages in which sentences with two or more syntactic negations can have a single negative meaning, a phenomenon called Negative Concord (NC).</rdfs:Definition>
+        <rdfs:Definition>Sentences with multiple negative elements corresponding to a single semantic negation are termed “Negative Concord” constructions.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Francis_Corblin__Viviane_Déprez__Henriëtte_de_Swart__Lucia_Tovena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Francis_Corblin__Viviane_Déprez__Henriëtte_de_Swart__Lucia_Tovena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Francis_Corblin__Viviane_Déprez__Henriëtte_de_Swart__Lucia_Tovena"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Negative concord is the general term for cases where multiple occurrences of negative constituents express a single negation.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Hedde_Zeijlstra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Hedde_Zeijlstra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Hedde_Zeijlstra"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>(1)b also contains two negative elements, but the sentence contains only one semantic negation. This phenomenon is referred to as Negative Concord (NC).</rdfs:Definition>
+        <rdfs:Definition>In many languages (such as Italian) two negative elements do not cancel each other out, but yield one semantic negation only (3). This phenomenon is referred to as Negative Concord (NC).</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Henriëtte_de_Swart__Ivan_A_Sag -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Henriëtte_de_Swart__Ivan_A_Sag">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Henriëtte_de_Swart__Ivan_A_Sag"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Negative concord is the general term for cases where multiple occurrences of phonologically negative constituents express a single negation.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Jeremy_Kuhn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Jeremy_Kuhn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Jeremy_Kuhn"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>Concord describes a natural language phenomenon in which a single logical meaning is expressed syntactically on multiple lexical items. The canonical example is negative concord, in which multiple negative expressions are used, but a single negation is interpreted.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Mora_Maldonado__Jennifer_Culbertson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Mora_Maldonado__Jennifer_Culbertson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Mora_Maldonado__Jennifer_Culbertson"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>In many other languages, however, the combination of two or more negative expressions can yield a single semantic negation, constituting what is usually known as negative concord.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Ton_van_der_Wouden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Ton_van_der_Wouden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>The general tenn for the many cases where multiple occmrences of morphologically negative constituents express a single semantic negation is negative concord (Labov 1979).</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Ton_van_der_Wouden__Frans_Zwarts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Ton_van_der_Wouden__Frans_Zwarts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ton_van_der_Wouden__Frans_Zwarts"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>The general tenn for the many cases where multiple occmrences of morphologically negative constituents express a single semantic negation is negative concord (Labov 1979).</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Viviane_Déprez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord_by_Viviane_Déprez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Viviane_Déprez"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#negative_concord"/>
+        <rdfs:Definition>double negatives, which I will henceforth refer to as Negative Concord (NC)</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#van_der_Wouden__Zwarts_1993 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#van_der_Wouden__Zwarts_1993">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ton_van_der_Wouden__Frans_Zwarts"/>
+        <untitled-ontology-2:PublicationSchool rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#formal"/>
+        <untitled-ontology-2:Title>A Semantic Analysis of Negative Concord</untitled-ontology-2:Title>
+        <rdfs:Link>http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/download/2449/2152</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#А_В_Бондарко -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#А_В_Бондарко">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_Н_Ярцева -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_Н_Ярцева">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_С_Храковский -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_С_Храковский">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#И_А_Мельчук -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#И_А_Мельчук">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Л_В_Зиндер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Л_В_Зиндер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Луи_Теньер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Луи_Теньер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Н_С_Трубецкой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Н_С_Трубецкой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Р_И_Аванесов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Р_И_Аванесов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Р_О_Якобсон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Р_О_Якобсон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Розенталь__Теленкова_1976 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Розенталь__Теленкова_1976">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова"/>
+        <untitled-ontology-2:Title>Словарь-справочник лингвистических терминов</untitled-ontology-2:Title>
+        <rdfs:Link>https://rus-yaz.niv.ru/doc/linguistic-terms/index.htm</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Т_В_Булыгина__С_А_Крылов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Т_В_Булыгина__С_А_Крылов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ярцева_1990 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Ярцева_1990">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Publication"/>
+        <untitled-ontology-2:PublicationAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_Н_Ярцева"/>
+        <untitled-ontology-2:Title>Лингвистический энциклопедический словарь</untitled-ontology-2:Title>
+        <rdfs:Link>https://tapemark.narod.ru/les/</rdfs:Link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_домен"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф_by_В_Н_Ярцева -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф_by_В_Н_Ярцева">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_Н_Ярцева"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф"/>
+        <rdfs:Definition>минимальная значимая единица текста, текстовый представитель морфемы</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф_by_Д_Э_Розенталь__М_А_Теленкова -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф_by_Д_Э_Розенталь__М_А_Теленкова">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морф"/>
+        <rdfs:Definition>Наименьшая часть словоформы</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_домен"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_by_Д_Э_Розенталь__М_А_Теленкова -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_by_Д_Э_Розенталь__М_А_Теленкова">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология"/>
+        <rdfs:Definition>Грамматическое учение о слове, включающее в себя учение о структуре слова, формах словоизменения, способах выражения грамматических значений, а также учение о частях речи и присущих им способах словообразования</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_by_Т_В_Булыгина__С_А_Крылов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_by_Т_В_Булыгина__С_А_Крылов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Т_В_Булыгина__С_А_Крылов"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология"/>
+        <rdfs:Definition>раздел грамматики, изучающий закономерности функционирования и развития этой системы</rdfs:Definition>
+        <rdfs:Definition>система механизмов языка, обеспечивающая построение и понимание его словоформ</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_домен -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_домен">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Domain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_домен"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж_by_В_Н_Ярцева -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж_by_В_Н_Ярцева">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_Н_Ярцева"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж"/>
+        <rdfs:Definition>грамматическая категория имени, выражающая его синтаксические отношения к другим словам высказывания или к высказыванию в целом, а также всякая отдельная граммема этой категории (конкретный падеж)</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж_by_Д_Э_Розенталь__М_А_Теленкова -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж_by_Д_Э_Розенталь__М_А_Теленкова">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#падеж"/>
+        <rdfs:Definition>(категория падежа). Грамматическая категория имени существительного, выражающая отношение обозначаемого им предмета к другим предметам, действиям, признакам</rdfs:Definition>
+        <rdfs:Definition>(форма падежа). Форма имени существительного, выражающая его отношение к другим словам в словосочетании и предложении</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#синтаксис -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#синтаксис">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Domain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+        <untitled-ontology-2:TermDomain rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#морфология_домен"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово_by_В_Н_Ярцева -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово_by_В_Н_Ярцева">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_Н_Ярцева"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово"/>
+        <rdfs:Definition>основная структурно-семантическая единица языка, служащая для именования предметов и их свойств, явлений, отношений действительности, обладающая совокупностью семантических, фонетических и грамматических признаков, специфичных для каждого языка</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово_by_Д_Э_Розенталь__М_А_Теленкова -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово_by_Д_Э_Розенталь__М_А_Теленкова">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Д_Э_Розенталь__М_А_Теленкова"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#слово"/>
+        <rdfs:Definition>Основная кратчайшая единица языка, выражающая своим звуковым составом понятие о предмете, процессе, явлении действительности, их свойствах или отношениях между ними</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_А_В_Бондарко -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_А_В_Бондарко">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#А_В_Бондарко"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис"/>
+        <rdfs:Definition>Временно́е отношение между действиями (в широком смысле, включая любые значения предикатов) в рамках целостного временного периода времени, охватывающее значения всех компонентов выражаемого в высказывании полипредикативного комплекса</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_В_С_Храковский -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_В_С_Храковский">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#В_С_Храковский"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис"/>
+        <rdfs:Definition>Ситуации P1 и P2 прототипически представлены глагольными формами, которые составляют таксисную пару. Одна из форм этой пары — синтаксически зависимая —обозначает ситуацию P1, которая ориентирована относительно ситуации P2, а другая форма — опорная (прототипически независимая) — обозначает ситуацию P2, которая служит временным ориентиром для ситуации P1.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_И_А_Мельчук -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_И_А_Мельчук">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#И_А_Мельчук"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис"/>
+        <rdfs:Definition>Категорией относительного времени называется категория, элементы которой характеризуют временную локализацию описываемого факта F1 n по отношению к другому описываемому факту F2n, упомянутому независимо</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_Луи_Теньер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_Луи_Теньер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Луи_Теньер"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис"/>
+        <rdfs:Definition>То, что отражает порядок следования процессов и определяет, предшествует ли данный процесс другому, следует ли за ним или сопутствует ему</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_Р_О_Якобсон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис_by_Р_О_Якобсон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Р_О_Якобсон"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#таксис"/>
+        <rdfs:Definition>То, что характеризует сообщаемый факт по отношению к другому сообщаемому факту и безотносительно к факту сообщения</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Term"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема_by_Л_В_Зиндер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема_by_Л_В_Зиндер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Л_В_Зиндер"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема"/>
+        <rdfs:Definition>Наименьшая линейно неделимая звуковая единица</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема_by_Н_С_Трубецкой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема_by_Н_С_Трубецкой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Н_С_Трубецкой"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема"/>
+        <rdfs:Definition>Фонологические единицы, которые с точки зрения данного языка невозможно разложить на более краткие следующие друг за другом фонологические единицы.</rdfs:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема_by_Р_И_Аванесов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема_by_Р_И_Аванесов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Definition"/>
+        <untitled-ontology-2:DefinitionAuthor rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#Р_И_Аванесов"/>
+        <untitled-ontology-2:DefinitionTerm rdf:resource="http://www.semanticweb.org/gorya/ontologies/2025/10/untitled-ontology-2#фонема"/>
+        <rdfs:Definition>Кратчайшая звуковая единица языка, рассматриваемая в совокупности тех своих черт, которые не обусловлены позицией, и потому сама по себе способная различать звуковые оболочки словоформ</rdfs:Definition>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
